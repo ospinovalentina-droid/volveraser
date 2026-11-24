@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 580" role="img" aria-label="Brote que crece al amanecer dentro de un arco"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E8F8F5"/><stop offset="1" stop-color="#BFE9E2"/></linearGradient><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE3DC"/><stop offset="1" stop-color="#FBC3B7"/></linearGradient><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CFEAF2"/><stop offset="1" stop-color="#9ED3E2"/></linearGradient><linearGradient id="gp" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E5A6B"/><stop offset="1" stop-color="#0A3A46"/></linearGradient><linearGradient id="gs" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFD9B8"/><stop offset="1" stop-color="#F08A78"/></linearGradient></defs>
+<clipPath id="arco"><path d="M110 540V270a210 210 0 0 1 420 0V540z"/></clipPath>
+<circle cx="320" cy="300" r="270" fill="none" stroke="#6FCFC0" stroke-width="2" stroke-dasharray="3 12" stroke-linecap="round"/>
+<circle cx="540" cy="90" r="46" fill="#F08A78" opacity=".25"/><circle cx="70" cy="420" r="30" fill="#6FCFC0" opacity=".5"/>
+<g clip-path="url(#arco)"><rect x="100" y="50" width="440" height="500" fill="url(#gs)"/>
+<circle cx="400" cy="230" r="120" fill="#fff" opacity=".25"/><circle cx="400" cy="230" r="72" fill="#FFF3E0"/>
+<path d="M100 400C200 340 300 430 420 380S520 360 540 380V560H100z" fill="#6FCFC0"/>
+<path d="M100 450C220 400 320 480 440 440S520 430 540 450V560H100z" fill="#0E5A6B"/>
+<path d="M100 500C240 470 360 520 540 490V560H100z" fill="#0A3A46"/>
+<path d="M300 480V330" stroke="#0A3A46" stroke-width="9" stroke-linecap="round"/>
+<path d="M300 380C248 380 214 346 211 298c52 0 87 30 89 82z" fill="#2E9C8A"/><path d="M300 345c50 0 85-34 88-82-50 0-86 30-88 82z" fill="#fff"/>
+<path d="M170 170q12-14 24 0q12-14 24 0" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/></g>
+<path d="M110 540V270a210 210 0 0 1 420 0V540z" fill="none" stroke="#fff" stroke-width="8"/>
+<g transform="translate(470 440)"><rect width="150" height="70" rx="18" fill="#fff"/><circle cx="35" cy="35" r="16" fill="#F08A78"/><path d="M28 36l5 5 9-11" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="62" y="24" width="70" height="8" rx="4" fill="#0E5A6B"/><rect x="62" y="40" width="48" height="8" rx="4" fill="#6FCFC0"/></g></svg>

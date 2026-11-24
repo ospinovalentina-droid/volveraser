@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundación Volver a ser | Bienestar emocional comunitario</title>
+  <meta name="description" content="Fundación Volver a ser: recursos, talleres y rutas de apoyo en bienestar emocional para Barranquilla y el Atlántico.">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO Y MENÚ DE NAVEGACIÓN -->
+  <header class="encabezado" id="encabezado">
+    <a class="logo" href="#inicio">
+      <img src="img/logo.svg" alt="Logo de la Fundación Volver a ser" width="46" height="46">
+      <span>Volver a ser</span>
+    </a>
+    <button class="menu-boton" id="menuBoton" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="menu" id="menu" aria-label="Menú principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#recursos">Recursos</a>
+      <a href="#promociones">Destacado</a>
+      <a href="#calculadora">Calculadora</a>
+      <a href="#contacto" class="menu-cta">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- PORTADA PRINCIPAL -->
+    <section id="inicio" class="portada">
+      <div class="portada-texto reveal">
+        <span class="etiqueta">Bienestar emocional comunitario</span>
+        <h1>Un espacio para <em>escucharte</em>, aprender y encontrar apoyo.</h1>
+        <p class="lema">«Reconocer tu historia, recuperar tu esencia y construir nuevos comienzos».</p>
+        <div class="portada-botones">
+          <a href="#servicios" class="boton">Conoce nuestros recursos</a>
+          <a href="#calculadora" class="boton boton-borde">Calcula un aporte</a>
+        </div>
+        <ul class="datos-rapidos">
+          <li><strong>3</strong> servicios</li>
+          <li><strong>Gratuito</strong> o subsidiado</li>
+          <li><strong>Barranquilla</strong> y Atlántico</li>
+        </ul>
+      </div>
+      <div class="portada-imagen reveal">
+        <img src="img/hero.svg" alt="Un brote que crece al amanecer dentro de un arco" width="640" height="580">
+      </div>
+    </section>
+
+    <!-- AVISO DE CUIDADO -->
+    <aside class="aviso" role="note">
+      <strong>Aviso de cuidado:</strong> la información de este sitio es educativa; no reemplaza diagnóstico ni atención profesional.
+      En una urgencia llama a la línea de emergencias <strong>123</strong> o acude al servicio de salud más cercano.
+    </aside>
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="nosotros" class="sobre-nosotros seccion">
+      <div class="nosotros-imagen reveal">
+        <img src="img/nosotros.svg" alt="Personas reunidas formando una comunidad" width="480" height="320" loading="lazy">
+      </div>
+      <div class="nosotros-contenido reveal">
+        <span class="etiqueta">Sobre nosotros</span>
+        <h2>Una comunidad donde hablar de emociones es normal</h2>
+        <p>La Fundación Volver a ser busca acercar información clara, recursos de autocuidado y orientación sobre rutas de apoyo en salud mental a personas de Barranquilla y el Atlántico, sin estigmas y con respeto.</p>
+        <div class="valores">
+          <div class="valor"><span class="icono">🌱</span><h3>Propósito</h3><p>Promover el bienestar emocional.</p></div>
+          <div class="valor"><span class="icono">🤝</span><h3>Comunidad</h3><p>Trabajo con aliados idóneos.</p></div>
+          <div class="valor"><span class="icono">🧭</span><h3>Orientación</h3><p>Informamos, no diagnosticamos.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section class="pasos seccion-fondo seccion">
+      <div class="encabezado-seccion reveal">
+        <span class="etiqueta">Cómo participar</span>
+        <h2>Tres pasos para empezar</h2>
+      </div>
+      <div class="pasos-lista">
+        <div class="paso reveal"><b>1</b><h3>Explora</h3><p>Lee los recursos de la biblioteca digital a tu ritmo.</p></div>
+        <div class="paso reveal"><b>2</b><h3>Participa</h3><p>Súmate a los talleres comunitarios.</p></div>
+        <div class="paso reveal"><b>3</b><h3>Conecta</h3><p>Conoce las rutas para solicitar apoyo profesional.</p></div>
+      </div>
+    </section>
+
+    <!-- CATÁLOGO DE SERVICIOS -->
+    <section id="servicios" class="seccion">
+      <div class="encabezado-seccion reveal">
+        <span class="etiqueta">Lo que ofrecemos</span>
+        <h2>Nuestros servicios</h2>
+        <p>Toca «Consultar» para ver el detalle de cada uno.</p>
+      </div>
+      <div class="catalogo">
+        <article class="tarjeta reveal">
+          <div class="tarjeta-img"><img src="img/biblioteca.svg" alt="Libro abierto que representa la biblioteca digital" width="400" height="260" loading="lazy"></div>
+          <div class="tarjeta-cuerpo">
+            <h3>Biblioteca digital</h3>
+            <p>Materiales breves sobre autocuidado, manejo cotidiano del estrés y hábitos saludables.</p>
+            <p class="precio">Gratuito</p>
+            <button class="boton boton-claro" data-servicio="biblioteca">Consultar</button>
+          </div>
+        </article>
+        <article class="tarjeta reveal">
+          <div class="tarjeta-img"><img src="img/talleres.svg" alt="Grupo de personas en un taller comunitario" width="400" height="260" loading="lazy"></div>
+          <div class="tarjeta-cuerpo">
+            <h3>Talleres comunitarios</h3>
+            <p>Encuentros psicoeducativos sobre bienestar emocional, comunicación y redes de apoyo.</p>
+            <p class="precio">Gratuito o subsidiado</p>
+            <button class="boton boton-claro" data-servicio="talleres">Consultar</button>
+          </div>
+        </article>
+        <article class="tarjeta reveal">
+          <div class="tarjeta-img"><img src="img/rutas.svg" alt="Camino con un punto de destino que representa las rutas de apoyo" width="400" height="260" loading="lazy"></div>
+          <div class="tarjeta-cuerpo">
+            <h3>Rutas de apoyo</h3>
+            <p>Orientación para identificar servicios y canales disponibles y buscar atención adecuada.</p>
+            <p class="precio">Gratuito</p>
+            <button class="boton boton-claro" data-servicio="rutas">Consultar</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- BIBLIOTECA DIGITAL: RECURSOS FILTRABLES -->
+    <section id="recursos" class="seccion seccion-fondo">
+      <div class="encabezado-seccion reveal">
+        <span class="etiqueta">Biblioteca digital</span>
+        <h2>Recursos para cuidarte</h2>
+        <p>Filtra por tema. Contenido educativo, no diagnóstico.</p>
+      </div>
+      <div class="filtros" role="group" aria-label="Filtrar recursos">
+        <button class="filtro activo" data-filtro="todos">Todos</button>
+        <button class="filtro" data-filtro="autocuidado">Autocuidado</button>
+        <button class="filtro" data-filtro="estres">Estrés</button>
+        <button class="filtro" data-filtro="habitos">Hábitos</button>
+        <button class="filtro" data-filtro="ayuda">Buscar ayuda</button>
+      </div>
+      <div class="recursos">
+        <article class="recurso" data-tema="autocuidado"><span class="chip">Autocuidado</span><h3>Pausas pequeñas para tu día</h3><p>Ideas sencillas para detenerte, respirar y volver a ti.</p></article>
+        <article class="recurso" data-tema="estres"><span class="chip">Estrés</span><h3>Cuando todo se acumula</h3><p>Cómo reconocer las señales del estrés cotidiano.</p></article>
+        <article class="recurso" data-tema="habitos"><span class="chip">Hábitos</span><h3>Rutinas que suman</h3><p>Descanso, movimiento y conexión como base del bienestar.</p></article>
+        <article class="recurso" data-tema="ayuda"><span class="chip">Buscar ayuda</span><h3>¿Cuándo pedir apoyo profesional?</h3><p>Señales de que es buen momento para hablar con alguien.</p></article>
+        <article class="recurso" data-tema="autocuidado"><span class="chip">Autocuidado</span><h3>Hablar de lo que sentimos</h3><p>Pistas para poner en palabras tus emociones.</p></article>
+        <article class="recurso" data-tema="ayuda"><span class="chip">Buscar ayuda</span><h3>Acompañar a alguien cercano</h3><p>Cómo escuchar con respeto y sin juzgar.</p></article>
+      </div>
+    </section>
+
+    <!-- SERVICIO DESTACADO -->
+    <section id="promociones" class="promociones">
+      <article class="tarjeta-promocion">
+        <div class="contenido-promocion reveal">
+          <span class="descuento">Servicio destacado</span>
+          <h2>Talleres comunitarios para crecer en compañía</h2>
+          <p>Espacios cercanos y respetuosos para aprender sobre bienestar emocional. Participación gratuita o subsidiada: que el dinero no sea una barrera.</p>
+          <div class="promo-botones">
+            <button class="boton boton-promo" data-servicio="talleres">Ver detalle</button>
+            <a href="#calculadora" class="boton boton-borde-claro">Cómo se financian</a>
+          </div>
+        </div>
+        <img class="reveal" src="img/destacado.svg" alt="Banner de talleres comunitarios" width="800" height="320" loading="lazy">
+      </article>
+    </section>
+
+    <!-- CALCULADORA / MÓDULO DE APORTES -->
+    <section id="calculadora" class="seccion-calculadora seccion">
+      <div class="encabezado-seccion reveal">
+        <span class="etiqueta">Aportes y presupuesto solidario</span>
+        <h2>Calcula los aportes de una actividad</h2>
+        <p>Estimador demostrativo: los excedentes se destinan a los objetivos sociales, no a repartir utilidades.</p>
+      </div>
+      <div class="calculadora-contenedor reveal">
+        <form class="calculadora-formulario" id="formCalc" novalidate>
+          <h3>Datos de la actividad</h3>
+          <label for="actividad">Actividad</label>
+          <select id="actividad">
+            <option value="">Selecciona una opción</option>
+            <option>Taller comunitario</option>
+            <option>Nuevos materiales de la biblioteca digital</option>
+            <option>Jornada de orientación sobre rutas de apoyo</option>
+          </select>
+          <div class="fila">
+            <div><label for="participantes">Participantes</label><input type="number" id="participantes" placeholder="Ej.: 20" min="1"></div>
+            <div><label for="aporte">Aporte por persona (COP)</label><input type="number" id="aporte" placeholder="Ej.: 5000" min="0"></div>
+          </div>
+          <div class="fila">
+            <div><label for="costo">Costo de la actividad (COP)</label><input type="number" id="costo" placeholder="Ej.: 150000" min="0"></div>
+            <div><label for="presupuesto">Presupuesto disponible (COP)</label><input type="number" id="presupuesto" placeholder="Ej.: 80000" min="0"></div>
+          </div>
+          <div class="fila-botones">
+            <button type="submit" class="boton boton-calcular">Estimar aportes</button>
+            <button type="button" class="boton boton-borde" id="ejemplo">Usar ejemplo</button>
+          </div>
+        </form>
+
+        <div class="resultado-calculadora" aria-live="polite">
+          <h3>Resumen estimado</h3>
+          <p class="etq">Actividad</p>
+          <strong id="rActividad">Esperando información…</strong>
+          <p class="etq">Aportes voluntarios estimados</p>
+          <span class="valor-total" id="rAportes">$0</span>
+          <div class="barra"><div class="barra-relleno" id="barra"></div></div>
+          <p class="etq" id="rEtqFinal">Excedente para objetivos sociales</p>
+          <span class="valor-total valor-secundario" id="rFinal">$0</span>
+          <p class="mensaje-calculadora" id="rMensaje">Completa los datos y presiona «Estimar aportes».</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES -->
+    <section class="seccion seccion-fondo">
+      <div class="encabezado-seccion reveal">
+        <span class="etiqueta">Preguntas frecuentes</span>
+        <h2>Resolvamos tus dudas</h2>
+      </div>
+      <div class="faq reveal">
+        <details><summary>¿La fundación ofrece terapia o diagnósticos?</summary><p>No. Ofrecemos información, talleres psicoeducativos y orientación. No reemplazamos la atención psicológica, psiquiátrica ni de urgencias.</p></details>
+        <details><summary>¿Cuánto cuesta participar?</summary><p>La biblioteca digital y la orientación son gratuitas. Los talleres son gratuitos o subsidiados.</p></details>
+        <details><summary>¿Quiénes pueden participar?</summary><p>Adolescentes, jóvenes, mujeres, familias y cuidadores de Barranquilla y el Atlántico. También instituciones, organizaciones y empresas aliadas.</p></details>
+        <details><summary>¿Qué pasa con mis datos?</summary><p>Este sitio no guarda datos personales. Te pedimos no escribir información sensible de salud en el formulario.</p></details>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="seccion-contacto seccion">
+      <div class="encabezado-seccion reveal">
+        <span class="etiqueta">Estamos para ayudarte</span>
+        <h2>Hablemos</h2>
+        <p>Escríbenos si quieres participar, conocer más o aliarte con la fundación.</p>
+      </div>
+      <div class="contacto-contenedor reveal">
+        <div class="contacto-informacion">
+          <h3>Información de contacto</h3>
+          <a class="dato-contacto" href="https://wa.me/573002765220" target="_blank" rel="noopener"><span class="icono">💬</span><div><h4>WhatsApp</h4><p>300 276 5220</p></div></a>
+          <a class="dato-contacto" href="mailto:hola@volverasera.org"><span class="icono">✉️</span><div><h4>Correo electrónico</h4><p>hola@volverasera.org</p></div></a>
+          <div class="dato-contacto"><span class="icono">📍</span><div><h4>Ubicación</h4><p>Barranquilla, Atlántico</p></div></div>
+          <div class="dato-contacto"><span class="icono">🕘</span><div><h4>Horario de atención</h4><p>Lunes a viernes: 8:00 a. m. - 5:00 p. m.</p></div></div>
+          <div class="redes">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram @volverasera</a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook /volverasera</a>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok @volverasera</a>
+          </div>
+        </div>
+
+        <div class="contacto-formulario">
+          <h3>Envíanos un mensaje</h3>
+          <form id="formContacto" novalidate>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" placeholder="Escribe tu correo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?"></textarea>
+            <button type="submit" class="boton boton-contacto">Enviar mensaje</button>
+            <p class="estado-form" id="estadoForm" role="status"></p>
+            <p class="nota">Formulario demostrativo: no envía ni guarda datos. No escribas información sensible de salud.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="pie">
+    <div class="pie-contenedor">
+      <div>
+        <div class="pie-marca"><img src="img/logo.svg" alt="" width="40" height="40"><strong>Fundación Volver a ser</strong></div>
+        <p>Reconocer tu historia, recuperar tu esencia y construir nuevos comienzos.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a><a href="#recursos">Recursos</a><a href="#calculadora">Calculadora</a>
+      </div>
+      <div>
+        <h4>Síguenos</h4>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a>
+      </div>
+    </div>
+    <p class="derechos">&copy; 2026 Fundación Volver a ser. Todos los derechos reservados. Proyecto académico, Barranquilla, Colombia.</p>
+  </footer>
+
+  <!-- WHATSAPP FLOTANTE Y VOLVER ARRIBA -->
+  <a class="whatsapp-flotante" href="https://wa.me/573002765220" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">💬 <span>WhatsApp</span></a>
+  <button class="arriba" id="arriba" aria-label="Volver arriba">↑</button>
+
+  <!-- VENTANA DE DETALLE DE SERVICIOS -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitulo" hidden>
+    <div class="modal-caja">
+      <button class="modal-cerrar" id="modalCerrar" aria-label="Cerrar">×</button>
+      <img id="modalImg" src="" alt="" width="400" height="260">
+      <div class="modal-texto">
+        <span class="precio" id="modalPrecio"></span>
+        <h3 id="modalTitulo"></h3>
+        <p id="modalDesc"></p>
+        <ul id="modalLista"></ul>
+        <a href="#contacto" class="boton" id="modalContacto">Quiero participar</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
